@@ -9,6 +9,8 @@ const overlay = document.querySelector('.overlay');
 //     alert('Clicked');
 //   });
 // });
+
+/*Refactoring: make modification to the code in order to preserve the DRY principles in our code without change the functionality of the code*/
 const removeHiddenClass = function () {
   modal.classList.remove('hidden');
   overlay.classList.remove('hidden');
